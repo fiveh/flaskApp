@@ -14,6 +14,8 @@ app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = '0540'
 app.config['MYSQL_DB'] = 'myflaskapp'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
+# app.config['MYSQL_PORT'] = '5000'
+
 #  init MYSQL
 mysql = MySQL(app)
 
